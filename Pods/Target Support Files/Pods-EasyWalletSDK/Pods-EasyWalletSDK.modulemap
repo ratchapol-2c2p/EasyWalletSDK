@@ -1,0 +1,6 @@
+framework module Pods_EasyWalletSDK {
+  umbrella header "Pods-EasyWalletSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

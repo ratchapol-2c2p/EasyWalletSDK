@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29A4C62444D2F99AC176F8A9C5E5D9B6 /* Pods-EasyWalletSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F020FA603AEFF6796768DF4EBABCD6F /* Pods-EasyWalletSDK-dummy.m */; };
+		2C1AB529B956EC9862689958DA6DD209 /* Pods-EasyWalletSDK-EasyWalletSDKUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 366287DFB3ED0169F95F2E3F0B6054F8 /* Pods-EasyWalletSDK-EasyWalletSDKUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91D939CF31AA46C284D52136A9740B58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9B80C3868D46FC90251291AA6876ECF9 /* Pods-EasyWalletSDK-EasyWalletSDKUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A86AC0D9A10D90D6AAF84B2EF3F3FA /* Pods-EasyWalletSDK-EasyWalletSDKUITests-dummy.m */; };
+		BEFD20B0291B1759C68C3240D454AD1F /* Pods-EasyWalletSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85632481B41E3CAD63121F188AA69BEA /* Pods-EasyWalletSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D22F645CBB3B0D5437130678C3BBDA37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D35688C05C05AC37AE57CCF9C387DC31 /* Pods-EasyWalletSDKTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F664985A84D66287A2B3216CE34F192F /* Pods-EasyWalletSDKTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB8D2A2063074763A8A0D75C420E7DCE /* Pods-EasyWalletSDKTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB5B58C37453AF1506783FAF3B8DFF6 /* Pods-EasyWalletSDKTests-dummy.m */; };
+		F50C4789FEE3045BEAC3D8A85C467CDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA1559129F0FA7BD6FC0D9528B53C65E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B51B28204FC7E37DD5675E39C69C41B;
+			remoteInfo = "Pods-EasyWalletSDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F58B439E3603E6D02CB6CFCF62F094 /* Pods-EasyWalletSDKTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EasyWalletSDKTests"; path = Pods_EasyWalletSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0673881EEB413768A71DD403DE2EB9C4 /* Pods-EasyWalletSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyWalletSDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F14494B3684E6B1E43287CE12A489BC /* Pods-EasyWalletSDKTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyWalletSDKTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		35472775281A1601D3877FCF55FD9A72 /* Pods-EasyWalletSDK-EasyWalletSDKUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyWalletSDK-EasyWalletSDKUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		366287DFB3ED0169F95F2E3F0B6054F8 /* Pods-EasyWalletSDK-EasyWalletSDKUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyWalletSDK-EasyWalletSDKUITests-umbrella.h"; sourceTree = "<group>"; };
+		3B31FADC37F2D990776D30B9258C5CBD /* Pods-EasyWalletSDK-EasyWalletSDKUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyWalletSDK-EasyWalletSDKUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CD89D2CD9D250E999A538825FDFB20E /* Pods-EasyWalletSDK-EasyWalletSDKUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EasyWalletSDK-EasyWalletSDKUITests"; path = Pods_EasyWalletSDK_EasyWalletSDKUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6A4BE799ED059ED1DB9C904CF2A117 /* Pods-EasyWalletSDKTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyWalletSDKTests-Info.plist"; sourceTree = "<group>"; };
+		47EBEC61D46E97B72040B58CE90AD03B /* Pods-EasyWalletSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyWalletSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		55D84169A9B54F85D4C90894F4995469 /* Pods-EasyWalletSDKTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EasyWalletSDKTests.modulemap"; sourceTree = "<group>"; };
+		5C3FBFEF82296B3D218BAB01FF7A18A0 /* Pods-EasyWalletSDK-EasyWalletSDKUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyWalletSDK-EasyWalletSDKUITests.release.xcconfig"; sourceTree = "<group>"; };
+		66DB24361E8AC247EB567B23987068B8 /* Pods-EasyWalletSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyWalletSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F67EE9C1C5BABF22093AD17B639F154 /* Pods-EasyWalletSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyWalletSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		85632481B41E3CAD63121F188AA69BEA /* Pods-EasyWalletSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyWalletSDK-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F020FA603AEFF6796768DF4EBABCD6F /* Pods-EasyWalletSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyWalletSDK-dummy.m"; sourceTree = "<group>"; };
+		AA2DFB5F101F0406F2BE190EB9DD00E2 /* Pods-EasyWalletSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EasyWalletSDK"; path = Pods_EasyWalletSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA709FDD37575983E806CC77CA57967 /* Pods-EasyWalletSDK-EasyWalletSDKUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyWalletSDK-EasyWalletSDKUITests-Info.plist"; sourceTree = "<group>"; };
+		B31EC03B7474588BA987175E4CEB54F2 /* Pods-EasyWalletSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyWalletSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		B8C682F5E286A3D0E5CEC8F3C2ADAE6F /* Pods-EasyWalletSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyWalletSDK.release.xcconfig"; sourceTree = "<group>"; };
+		B9EBC71AC1B670E0EFA7FBFE9774FDE9 /* Pods-EasyWalletSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EasyWalletSDK.modulemap"; sourceTree = "<group>"; };
+		CDA00314EA0493BA0CF80A3CB206E065 /* Pods-EasyWalletSDK-EasyWalletSDKUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EasyWalletSDK-EasyWalletSDKUITests.modulemap"; sourceTree = "<group>"; };
+		D53311F00E5837CF9A634F6138544403 /* Pods-EasyWalletSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyWalletSDK-Info.plist"; sourceTree = "<group>"; };
+		E3A86AC0D9A10D90D6AAF84B2EF3F3FA /* Pods-EasyWalletSDK-EasyWalletSDKUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyWalletSDK-EasyWalletSDKUITests-dummy.m"; sourceTree = "<group>"; };
+		EBB5B58C37453AF1506783FAF3B8DFF6 /* Pods-EasyWalletSDKTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyWalletSDKTests-dummy.m"; sourceTree = "<group>"; };
+		F3E5DA5CAAA257207D0E7366F7A920B9 /* Pods-EasyWalletSDKTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyWalletSDKTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F664985A84D66287A2B3216CE34F192F /* Pods-EasyWalletSDKTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyWalletSDKTests-umbrella.h"; sourceTree = "<group>"; };
+		F737FB3524339C73DFEA479440BB0623 /* Pods-EasyWalletSDK-EasyWalletSDKUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyWalletSDK-EasyWalletSDKUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A87B61BEC09BB5DD13DA568FD2ADCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D939CF31AA46C284D52136A9740B58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A43EFE7FED27CB2024E8F27E0E63498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22F645CBB3B0D5437130678C3BBDA37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF8CB5D0E806D1E5FBD9C7B29ED614E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50C4789FEE3045BEAC3D8A85C467CDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		014136D9AE8F92D792EA0243D29CC440 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				085B3E22AB4CA646EA5240C0E51AEFD6 /* Pods-EasyWalletSDK */,
+				1B6A0E71DF726F29436EA3F51D18CE0E /* Pods-EasyWalletSDK-EasyWalletSDKUITests */,
+				6641029F01FDFABFE36594A94E3C61C2 /* Pods-EasyWalletSDKTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		085B3E22AB4CA646EA5240C0E51AEFD6 /* Pods-EasyWalletSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B9EBC71AC1B670E0EFA7FBFE9774FDE9 /* Pods-EasyWalletSDK.modulemap */,
+				6F67EE9C1C5BABF22093AD17B639F154 /* Pods-EasyWalletSDK-acknowledgements.markdown */,
+				0673881EEB413768A71DD403DE2EB9C4 /* Pods-EasyWalletSDK-acknowledgements.plist */,
+				9F020FA603AEFF6796768DF4EBABCD6F /* Pods-EasyWalletSDK-dummy.m */,
+				D53311F00E5837CF9A634F6138544403 /* Pods-EasyWalletSDK-Info.plist */,
+				85632481B41E3CAD63121F188AA69BEA /* Pods-EasyWalletSDK-umbrella.h */,
+				B31EC03B7474588BA987175E4CEB54F2 /* Pods-EasyWalletSDK.debug.xcconfig */,
+				B8C682F5E286A3D0E5CEC8F3C2ADAE6F /* Pods-EasyWalletSDK.release.xcconfig */,
+			);
+			name = "Pods-EasyWalletSDK";
+			path = "Target Support Files/Pods-EasyWalletSDK";
+			sourceTree = "<group>";
+		};
+		1B6A0E71DF726F29436EA3F51D18CE0E /* Pods-EasyWalletSDK-EasyWalletSDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA00314EA0493BA0CF80A3CB206E065 /* Pods-EasyWalletSDK-EasyWalletSDKUITests.modulemap */,
+				35472775281A1601D3877FCF55FD9A72 /* Pods-EasyWalletSDK-EasyWalletSDKUITests-acknowledgements.markdown */,
+				F737FB3524339C73DFEA479440BB0623 /* Pods-EasyWalletSDK-EasyWalletSDKUITests-acknowledgements.plist */,
+				E3A86AC0D9A10D90D6AAF84B2EF3F3FA /* Pods-EasyWalletSDK-EasyWalletSDKUITests-dummy.m */,
+				AEA709FDD37575983E806CC77CA57967 /* Pods-EasyWalletSDK-EasyWalletSDKUITests-Info.plist */,
+				366287DFB3ED0169F95F2E3F0B6054F8 /* Pods-EasyWalletSDK-EasyWalletSDKUITests-umbrella.h */,
+				3B31FADC37F2D990776D30B9258C5CBD /* Pods-EasyWalletSDK-EasyWalletSDKUITests.debug.xcconfig */,
+				5C3FBFEF82296B3D218BAB01FF7A18A0 /* Pods-EasyWalletSDK-EasyWalletSDKUITests.release.xcconfig */,
+			);
+			name = "Pods-EasyWalletSDK-EasyWalletSDKUITests";
+			path = "Target Support Files/Pods-EasyWalletSDK-EasyWalletSDKUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6641029F01FDFABFE36594A94E3C61C2 /* Pods-EasyWalletSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				55D84169A9B54F85D4C90894F4995469 /* Pods-EasyWalletSDKTests.modulemap */,
+				F3E5DA5CAAA257207D0E7366F7A920B9 /* Pods-EasyWalletSDKTests-acknowledgements.markdown */,
+				1F14494B3684E6B1E43287CE12A489BC /* Pods-EasyWalletSDKTests-acknowledgements.plist */,
+				EBB5B58C37453AF1506783FAF3B8DFF6 /* Pods-EasyWalletSDKTests-dummy.m */,
+				3F6A4BE799ED059ED1DB9C904CF2A117 /* Pods-EasyWalletSDKTests-Info.plist */,
+				F664985A84D66287A2B3216CE34F192F /* Pods-EasyWalletSDKTests-umbrella.h */,
+				47EBEC61D46E97B72040B58CE90AD03B /* Pods-EasyWalletSDKTests.debug.xcconfig */,
+				66DB24361E8AC247EB567B23987068B8 /* Pods-EasyWalletSDKTests.release.xcconfig */,
+			);
+			name = "Pods-EasyWalletSDKTests";
+			path = "Target Support Files/Pods-EasyWalletSDKTests";
+			sourceTree = "<group>";
+		};
+		BCA52A0044512EA19BAEAE6ED7A1AE53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA2DFB5F101F0406F2BE190EB9DD00E2 /* Pods-EasyWalletSDK */,
+				3CD89D2CD9D250E999A538825FDFB20E /* Pods-EasyWalletSDK-EasyWalletSDKUITests */,
+				04F58B439E3603E6D02CB6CFCF62F094 /* Pods-EasyWalletSDKTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BCA52A0044512EA19BAEAE6ED7A1AE53 /* Products */,
+				014136D9AE8F92D792EA0243D29CC440 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16DB779EDF5BECBFB163C54108954434 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFD20B0291B1759C68C3240D454AD1F /* Pods-EasyWalletSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371370A8F15A665DD0282272D8526EA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1AB529B956EC9862689958DA6DD209 /* Pods-EasyWalletSDK-EasyWalletSDKUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24B57B7A0527B2BE66AD2259A8AAAC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35688C05C05AC37AE57CCF9C387DC31 /* Pods-EasyWalletSDKTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B51B28204FC7E37DD5675E39C69C41B /* Pods-EasyWalletSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E14B20E0067AEBF91929F196D7271BD /* Build configuration list for PBXNativeTarget "Pods-EasyWalletSDK" */;
+			buildPhases = (
+				16DB779EDF5BECBFB163C54108954434 /* Headers */,
+				560758FA0B04104C8F4402EFEA85FFA6 /* Sources */,
+				BDF8CB5D0E806D1E5FBD9C7B29ED614E /* Frameworks */,
+				614747EE1CBF2897C1D2E46B30AEF798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EasyWalletSDK";
+			productName = Pods_EasyWalletSDK;
+			productReference = AA2DFB5F101F0406F2BE190EB9DD00E2 /* Pods-EasyWalletSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1112C0431F6C35CB5D837FD86524E6B /* Pods-EasyWalletSDK-EasyWalletSDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FEE9E547D2463AE02F08E4DD68C757A /* Build configuration list for PBXNativeTarget "Pods-EasyWalletSDK-EasyWalletSDKUITests" */;
+			buildPhases = (
+				371370A8F15A665DD0282272D8526EA0 /* Headers */,
+				6396B3AA03967F55F30FF40290CE9796 /* Sources */,
+				9A43EFE7FED27CB2024E8F27E0E63498 /* Frameworks */,
+				000C24A37F151B08A50C0C0ED08EE356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EasyWalletSDK-EasyWalletSDKUITests";
+			productName = Pods_EasyWalletSDK_EasyWalletSDKUITests;
+			productReference = 3CD89D2CD9D250E999A538825FDFB20E /* Pods-EasyWalletSDK-EasyWalletSDKUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC2BB1C4EA95A11B01E139CDE2AEEACF /* Pods-EasyWalletSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2F6C520AA592980B50F36202504211 /* Build configuration list for PBXNativeTarget "Pods-EasyWalletSDKTests" */;
+			buildPhases = (
+				D24B57B7A0527B2BE66AD2259A8AAAC7 /* Headers */,
+				CDAB483FBD67F17D696CB9567E05CA1A /* Sources */,
+				3A87B61BEC09BB5DD13DA568FD2ADCCC /* Frameworks */,
+				21B4DAF642E3D685B03B9D0B97D98C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C34B24850063AD6BBDF493F53847DE6C /* PBXTargetDependency */,
+			);
+			name = "Pods-EasyWalletSDKTests";
+			productName = Pods_EasyWalletSDKTests;
+			productReference = 04F58B439E3603E6D02CB6CFCF62F094 /* Pods-EasyWalletSDKTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BCA52A0044512EA19BAEAE6ED7A1AE53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B51B28204FC7E37DD5675E39C69C41B /* Pods-EasyWalletSDK */,
+				A1112C0431F6C35CB5D837FD86524E6B /* Pods-EasyWalletSDK-EasyWalletSDKUITests */,
+				BC2BB1C4EA95A11B01E139CDE2AEEACF /* Pods-EasyWalletSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000C24A37F151B08A50C0C0ED08EE356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B4DAF642E3D685B03B9D0B97D98C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614747EE1CBF2897C1D2E46B30AEF798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		560758FA0B04104C8F4402EFEA85FFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A4C62444D2F99AC176F8A9C5E5D9B6 /* Pods-EasyWalletSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6396B3AA03967F55F30FF40290CE9796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B80C3868D46FC90251291AA6876ECF9 /* Pods-EasyWalletSDK-EasyWalletSDKUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAB483FBD67F17D696CB9567E05CA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8D2A2063074763A8A0D75C420E7DCE /* Pods-EasyWalletSDKTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C34B24850063AD6BBDF493F53847DE6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EasyWalletSDK";
+			target = 3B51B28204FC7E37DD5675E39C69C41B /* Pods-EasyWalletSDK */;
+			targetProxy = AA1559129F0FA7BD6FC0D9528B53C65E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11B50DBA0B5FBD0E73FF5148C2352EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C682F5E286A3D0E5CEC8F3C2ADAE6F /* Pods-EasyWalletSDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyWalletSDK/Pods-EasyWalletSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyWalletSDK/Pods-EasyWalletSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3D83CDC4816EF009FAB031AC6094C84F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B31FADC37F2D990776D30B9258C5CBD /* Pods-EasyWalletSDK-EasyWalletSDKUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyWalletSDK-EasyWalletSDKUITests/Pods-EasyWalletSDK-EasyWalletSDKUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyWalletSDK-EasyWalletSDKUITests/Pods-EasyWalletSDK-EasyWalletSDKUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67FCDC8439D9F5DB7F1D91FF5B78E255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31EC03B7474588BA987175E4CEB54F2 /* Pods-EasyWalletSDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyWalletSDK/Pods-EasyWalletSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyWalletSDK/Pods-EasyWalletSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		809201FFD130A0D106BB2270FCD207AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47EBEC61D46E97B72040B58CE90AD03B /* Pods-EasyWalletSDKTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyWalletSDKTests/Pods-EasyWalletSDKTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyWalletSDKTests/Pods-EasyWalletSDKTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99A53293389D9BD8956558D4DCC01199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66DB24361E8AC247EB567B23987068B8 /* Pods-EasyWalletSDKTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyWalletSDKTests/Pods-EasyWalletSDKTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyWalletSDKTests/Pods-EasyWalletSDKTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C873D3C071BDDC046D6E8F63C69C2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D9683005AA08BC84701EC821AB1164E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C3FBFEF82296B3D218BAB01FF7A18A0 /* Pods-EasyWalletSDK-EasyWalletSDKUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyWalletSDK-EasyWalletSDKUITests/Pods-EasyWalletSDK-EasyWalletSDKUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyWalletSDK-EasyWalletSDKUITests/Pods-EasyWalletSDK-EasyWalletSDKUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */,
+				C873D3C071BDDC046D6E8F63C69C2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FEE9E547D2463AE02F08E4DD68C757A /* Build configuration list for PBXNativeTarget "Pods-EasyWalletSDK-EasyWalletSDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D83CDC4816EF009FAB031AC6094C84F /* Debug */,
+				D9683005AA08BC84701EC821AB1164E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E14B20E0067AEBF91929F196D7271BD /* Build configuration list for PBXNativeTarget "Pods-EasyWalletSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FCDC8439D9F5DB7F1D91FF5B78E255 /* Debug */,
+				11B50DBA0B5FBD0E73FF5148C2352EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB2F6C520AA592980B50F36202504211 /* Build configuration list for PBXNativeTarget "Pods-EasyWalletSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809201FFD130A0D106BB2270FCD207AE /* Debug */,
+				99A53293389D9BD8956558D4DCC01199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
