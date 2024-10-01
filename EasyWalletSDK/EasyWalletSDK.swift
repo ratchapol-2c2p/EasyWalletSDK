@@ -8,17 +8,10 @@ import Foundation
 import UIKit
 
 public struct EasyWalletSDK {
-    
-    var sayHelloText: String?
     var controller: UIViewController?
     
-    public init(controller: UIViewController, sayHelloText: String) {
-        self.sayHelloText = sayHelloText + sayHelloText
+    public init(controller: UIViewController) {
         self.controller = controller
-    }
-    
-    public func sayHello() {
-        print(sayHelloText ?? "")
     }
     
     public func showSDKViewController() {
