@@ -7,7 +7,7 @@
 import Foundation
 import UIKit
 
-public struct EasyWalletSDK {
+public class EasyWalletSDK {
     var controller: UIViewController?
     
     public init(controller: UIViewController) {
