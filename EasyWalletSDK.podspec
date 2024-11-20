@@ -20,23 +20,29 @@ Pod::Spec.new do |spec|
   spec.summary      = "Wallet SDK from GAC 2c2p"
   spec.description  = "The SDK build for easy to use from GAC 2c2p"
   spec.homepage     = "https://github.com/ratchapol-2c2p/EasyWalletSDK"
-  spec.license      = "NoLicense"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "Ratchapol Pattarakanoksiri" => "ratchapol.pat@2c2p.com" }
   spec.source       = { :git => "https://github.com/ratchapol-2c2p/EasyWalletSDK.git", :tag => "#{spec.version}" }
-  spec.source_files  = "EasyWalletSDK", "EasyWalletSDK/**/*.{swift}", "EasyWalletSDK/**/**/*.{swift}"
-  # spec.exclude_files = {
-  #   'EasyWalletBundle' => [
-  #   'EasyWalletSDK/**/*.xib',
-  #   'EasyWalletSDK/**/*.gif',
-  #   'EasyWalletSDK/**/*.xcassets',
-  #   'EasyWalletSDK/**/*.ttf',
-  #   'EasyWalletSDK/**/*.otf',
-  #   'EasyWalletSDK/**/Auth0.plist',
-  #   'EasyWalletSDK/**/*.lproj/*.strings']
-  # }
-  spec.static_framework = true
-  
-  # Dependency 
-  # spec.dependency 'Alamofire', '~> 5.9.1'
+  spec.source_files  = "EasyWalletSDK/**/*.{swift}"
+  spec.resource_bundles = {
+    'EasyWalletSDKResources' => ['EasyWalletSDK/**/*.storyboard', 'EasyWalletSDK/**/*.xib', 'EasyWalletSDK/**/*.png', 'EasyWalletSDK/Resources/**/*']
+  }
+  spec.platform     = :ios, "14"  # อัปเดตค่า iOS deployment target
+  spec.swift_version = "5.0"
 
+  spec.static_framework = false
+  spec.requires_arc = true
+
+  spec.dependency 'Alamofire', '~> 5.9.1'
+  spec.dependency 'ObjectivePGP'
+  spec.dependency 'CryptoSwift', '~> 1.8'
+  spec.dependency 'SVProgressHUD'
+  spec.dependency 'IQKeyboardManagerSwift', '6.5.7'
+  spec.dependency 'MaterialComponents/TextControls+FilledTextAreas'
+  spec.dependency 'MaterialComponents/TextControls+FilledTextFields'
+  spec.dependency 'MaterialComponents/TextControls+OutlinedTextAreas'
+  spec.dependency 'MaterialComponents/TextControls+OutlinedTextFields'
+  spec.dependency 'zolozkit'
+  spec.dependency 'OTPFieldView'
+  spec.dependency 'MaterialComponents/Tabs+TabBarViewTheming'
 end
